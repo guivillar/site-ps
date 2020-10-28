@@ -1,0 +1,26 @@
+@font-face{
+    font-family: "SegoeUI";
+    src: url("../fonts/segoeui.ttf")
+    format('truetype');;
+}
+@font-face{
+    font-family: "SegoeUIb";
+    src: url("../fonts/segoeuib.ttf")
+    format('truetype');;
+}
+@font-face{
+    font-family: "SegoeUIl";
+    src: url("../fonts/segoeuil.ttf")
+    format('truetype');;
+}
+
+.navbar-light .navbar-toggler-icon{
+    background-image: url("../images/hamburger2.svg")!important;
+}
+.btn{
+    font-family: "SegoeUIb";
+    border-radius: 0 !important;
+}
+.navbar-light .navbar-toggler{
+    border: none !important;
+}
