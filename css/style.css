@@ -24,3 +24,8 @@
 .navbar-light .navbar-toggler{
     border: none !important;
 }
+
+.nav-link{
+    font-family: "SegoeUI";
+    color: white !important;
+}
