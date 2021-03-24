@@ -1,21 +1,21 @@
 @font-face{
     font-family: "SegoeUI";
-    src: url("../fonts/segoeui.ttf")
+    src: url("../assets/fonts/segoeui.ttf")
     format('truetype');;
 }
 @font-face{
     font-family: "SegoeUIb";
-    src: url("../fonts/segoeuib.ttf")
+    src: url("../assets/fonts/segoeuib.ttf")
     format('truetype');;
 }
 @font-face{
     font-family: "SegoeUIl";
-    src: url("../fonts/segoeuil.ttf")
+    src: url("../assets/fonts/segoeuil.ttf")
     format('truetype');;
 }
 
 .navbar-light .navbar-toggler-icon{
-    background-image: url("../images/hamburger2.svg")!important;
+    background-image: url("../assets/images/hamburger2.svg")!important;
 }
 .btn{
     font-family: "SegoeUIb";
@@ -28,4 +28,11 @@
 .nav-link{
     font-family: "SegoeUI";
     color: white !important;
+}
+
+.img-back{
+    display: block;
+    background-image: url(../assets/images/ballpen-blur-close-up-461077.png);
+    background-size: 107%;
+    background-position-x: right;
 }
