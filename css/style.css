@@ -14,12 +14,15 @@
     format('truetype');;
 }
 
+/* CSS NAVBAR */
 .navbar-light .navbar-toggler-icon{
     background-image: url("../assets/images/hamburger2.svg")!important;
 }
-.btn{
+#botao_nav{
     font-family: "SegoeUIb";
     border-radius: 0 !important;
+    background-color: #002050;
+    color: white;
 }
 .navbar-light .navbar-toggler{
     border: none !important;
@@ -29,10 +32,55 @@
     font-family: "SegoeUI";
     color: white !important;
 }
+/* FIM CSS NAVBAR */
 
+/* CSS TOPO DA PAGINA */
 .img-back{
     display: block;
     background-image: url(../assets/images/ballpen-blur-close-up-461077.png);
     background-size: 107%;
     background-position-x: right;
 }
+
+#texto1_topo{
+    font-family: 'Segoe UIb', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 700%;
+    padding-left: 3%;
+    padding-top: 15%;
+    color: white;
+}
+
+#texto2_topo{
+    font-size: 200%;
+    padding-left: 3%;
+    color: white;
+}
+
+#botao_topo{
+    margin-bottom: 1%;
+    padding: 1% 4%;
+    font-family: 'Segoe UIl', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #00A4EF;
+    font-size: 200%;
+    margin-left: 3%;
+    margin-top: 5%;
+}
+
+#divContainer_topo{
+    margin-top: 6%;
+    padding-bottom: 3.5%;
+    margin-left: 3%;
+}
+
+#divSeta_topo{
+    padding-left: 0;
+}
+
+#seta_topo{
+    width: 24%;
+}
+
+#logo_topo{
+    width: 30%;
+}
+/* FIM CSS TOPO DA PAGINA */
