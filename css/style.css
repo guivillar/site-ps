@@ -263,6 +263,55 @@ hr.solid {
 }
 /* FIM IMAGEM FIM PAGINA */
 
+/* FORMULARIO */
+.form-outline{
+    width: 100%;
+    max-width: 562px;
+    padding: 15px;
+    margin: 0 auto;
+    background-color: #E6E6E6;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}
+
+.titleLabel_form{
+    color: #2C5898;
+    font-size: x-small;
+}
+
+.btn_forms{
+    margin-top: 5%;
+    width: 100%;
+    font-size: x-large;
+}
+
+.text_form{
+    text-align: center;
+    font-size: 148%;
+}
+
+.divText_form{
+    margin: 5% 7%;
+}
+
+#imgBottomL{
+    width: 30%;
+    margin-left: 10%;
+}
+
+#imgBottomR{
+    width: 30%;
+    margin-right: 10%;
+}
+
+#divImg_bottom{
+    max-width: 562px;
+    margin: 0 auto;
+    padding: 3% 0;
+    padding-bottom: 5%;
+}
+/* FIM FORMULARIO */
+
 /* RESPONSIVIDADE */
 @media only screen and (max-width: 1600px) {
     .bg-image .gradiente{
