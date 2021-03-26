@@ -111,6 +111,7 @@ body, html {
     width: 30%;
 }
 
+
 .bg-image .gradiente{
     position: relative;
     z-index: 2;
@@ -157,6 +158,10 @@ body, html {
 
 .box_right{
     max-width: 48%!important;
+}
+
+.blocos-mobile{
+    display: none;
 }
 /* FIM BLOCOS MID1 */
 
@@ -214,6 +219,10 @@ hr.solid {
     border-top: 3px solid #bbb;
     width: 10%;
   }
+
+#blocosMid2-mobile{
+    display: none;
+}
 /* FIM BLOCOS MID2 */
 
 /* IMAGEM FIM PAGINA */
@@ -312,7 +321,294 @@ hr.solid {
 }
 /* FIM FORMULARIO */
 
+#tabela-mobile{
+    display: none;
+}
+
 /* RESPONSIVIDADE */
+@media only screen and (max-width: 720px) {
+    .bg-image {
+        position: absolute;
+        left: 0;
+        right: 0;
+        z-index: 1;
+        display: block;
+        background-image: url(../assets/images/ballpen-blur-close-up-461077.png);
+        width: 100%;
+        height: 141% !important;
+        -webkit-filter: blur(5px);
+        -moz-filter: blur(5px);
+        -o-filter: blur(5px);
+        -ms-filter: blur(5px);
+        filter: blur(1px);
+        background-position-x: 35% !important;
+        background-repeat: no-repeat;
+        background-size: 276% !important;
+    }
+
+    .bg-image .gradiente {
+        position: relative;
+        z-index: 2;
+        width: 100%;
+        height: 100% !important;
+        background-repeat: no-repeat;
+        background: rgb(0,0,0);
+        background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.8477766106442577) 20%, rgba(255,255,255,0) 100%);
+    }
+
+    #top{
+        height: 140%;
+    }
+
+    .bg-text {
+        background-color: rgba(0,0,0, 0.4);
+        position: relative;
+        left: 0;
+        right: 0;
+        z-index: 3;
+        height: 100%;
+    }
+
+    #texto1_topo {
+        font-family: 'Segoe UIb', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 500% !important;
+        padding-left: 0% !important;
+        padding-top: 45% !important;
+        color: white;
+        text-align: center;
+    }
+
+    #texto2_topo {
+        font-size: 280% !important;
+        padding: 5% 5% 0 5% !important;
+        color: white;
+        text-align: center;
+    }
+
+    #botao_topo {
+        margin-bottom: 1%;
+        padding: 1% 4%;
+        font-family: 'Segoe UIl', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #00A4EF;
+        font-size: 200%;
+        margin-left: 33% !important;
+        margin-top: 5%;
+    }
+
+    #divSeta_topo {
+        padding-left: 0;
+        display: none;
+    }
+
+    #baixo_topo1{
+        display: none;
+    }
+
+    #baixo_topo1{
+        display: none;
+    }
+
+    #baixo_topo2{
+        display: block !important;
+        position: relative;
+        width: 100%;
+        height: 100%;
+        margin-top: 50%;
+    }
+
+    #baixo_topo2 img{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 60%;
+    }
+
+    #divTextUp {
+        margin: 5% 12%;
+        text-align: center;
+        font-size: large;
+        color: #6C6C6C;
+        width: 100%;
+        padding: 0 3%;
+    }
+
+    .font-mobile{
+        font-size: x-large;
+    }
+
+    .blocos-mobile{
+        display: block !important;
+        width: 100%;
+    }
+
+    #blocos-desk{
+        display: none;
+    }
+
+    #divBox_img {
+        padding: 2%;
+        padding-bottom: 4%;
+        height: 100%;
+    }
+
+    .divImg-box{
+        width: 25% !important;
+    }
+
+    #img_box-mobile{
+        width: 100%;
+        margin-top: 35%;
+        margin-left: 10%;
+    }
+
+    .divText-box{
+        width: 75% !important;
+        padding-top: 4%;
+    }
+
+    #text1_box-mobile{
+        font-size: xx-large;
+        margin-bottom: 5px;
+    }
+
+    #text2_box-mobile{
+        font-size: 100%;
+        margin-bottom: 0;
+    }
+
+    .box_left{
+        max-width: 100% !important;
+        margin-right: 0%;
+        margin-bottom: 4%;
+    }
+
+    .box_right{
+        max-width: 100% !important;
+        margin-right: 4%;
+        margin-bottom: 4%;
+    }
+
+    #blocosMid2-desk{
+        display: none;
+    }
+
+    #blocosMid2-mobile{
+        display: block;
+    }
+
+    .circuloVerde{
+        background: #7FBA23;
+        border-radius: 50%;
+        width: 25% !important;
+        height: 25%;
+        margin-top: 3%;
+    }
+
+    #imgSupport{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 25% 10%;
+        width: 100%;
+    }
+
+    .circuloAzul{
+        background: #2AA5EF;
+        border-radius: 50%;
+        width: 25% !important;
+        height: 25%;
+        margin-top: 3%;
+    }
+
+    #imgShield{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 20% 13%;
+        width: 100%;
+    }
+
+    .circuloLaranja{
+        background: #F9B93E;
+        border-radius: 50%;
+        width: 25% !important;
+        height: 25%;
+        margin-top: 3%;
+    }
+
+    #imgNotebook{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 30% 10%;
+        width: 100%;
+    }
+
+    .textCard-mobile{
+        color: #212529;
+        padding-left: 0;
+        padding-right: 10%;
+        font-size: large;
+    }
+    #rowCard-mobile{
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    hr.solid {
+        border-top: 3px solid #bbb;
+        width: 100%;
+        margin: 7% 0px;
+    }
+
+    .margin-card-mobile{
+        margin-left: 8% !important;
+    }
+    
+    #tabela-desk{
+        display: none;
+    }
+    
+    #tabela-mobile{
+        display: block;
+    }
+
+    .bg-imageDown {
+        position: absolute;
+        left: 0;
+        right: 0;
+        z-index: 1;
+        display: block;
+        background-image: url(../assets/images/achievement-adult-agreement-1391373.png);
+        width: 100%;
+        height: 45% !important;
+        -webkit-filter: blur(1px);
+        -moz-filter: blur(1px);
+        -o-filter: blur(1px);
+        -ms-filter: blur(1px);
+        filter: blur(1px);
+        background-position-x: center;
+        background-repeat: no-repeat;
+        object-fit: contain;
+        background-size: 100%;
+    }
+
+    #text2_down {
+        color: white;
+        font-size: 260%;
+        font-family: 'Segoe UIl', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        padding: 0% 5% 5.3% 5%;
+    }
+
+    .text_form {
+        text-align: center;
+        font-size: 148%;
+        margin: 15% 5%;
+    }
+}
+
 @media only screen and (max-width: 1600px) {
     .bg-image .gradiente{
         position: relative;
@@ -326,6 +622,33 @@ hr.solid {
 }
 
 @media only screen and (max-width: 1440px) {
+    .bg-text {
+        background-color: rgba(0,0,0, 0.6);
+        position: relative;
+        left: 0;
+        right: 0;
+        z-index: 3;
+        height: 100%;
+    }
+
+    .bg-image {
+        position: absolute;
+        left: 0;
+        right: 0;
+        z-index: 1;
+        display: block;
+        background-image: url(../assets/images/ballpen-blur-close-up-461077.png);
+        width: 100%;
+        height: 105%;
+        -webkit-filter: blur(5px);
+        -moz-filter: blur(5px);
+        -o-filter: blur(5px);
+        -ms-filter: blur(5px);
+        filter: blur(1px);
+        background-position-x: right;
+        background-repeat: no-repeat;
+    }
+    
     .bg-imageDown {
         position: absolute;
         left: 0;

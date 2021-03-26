@@ -3,6 +3,7 @@
     <head>
         <title>Lorem ipsum</title>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="../css/style.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -37,7 +38,7 @@
                 <p id="texto2_topo">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 <button id="botao_topo" class="btn btn-primary">Lorem ipsum</button>
                 <div id="divContainer_topo" class="container">
-                    <div class="row">
+                    <div id="baixo_topo1" class="row">
                         <div id="divSeta_topo" class="col-md-3">
                             <a href="#"><img id="seta_topo" src="../assets/images/seta-baixo.png"></a>
                         </div>
@@ -45,17 +46,20 @@
                             <img id="logo_topo" class="float-right" src="../assets/images/Grupo 105.png">
                         </div>
                     </div>
+                    <div id="baixo_topo2" style="position: relative; width: 100%; height: 100%">
+                        <img id="logo_topo2" src="../assets/images/Grupo 105.png">
+                    </div>
                 </div>
             </div>      
         </div>
         <div id="divTextUp" class="container">
-            <p><span style="color: #EF4A37;">Lorem ipsum</span> dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+            <p class="font-mobile"><span style="color: #EF4A37;">Lorem ipsum</span> dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p class="font-mobile">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
         </div>
         <div class="container">
             <h1 style="color: #2671B7; text-align: center; padding-top: 3%;">Lorem ipsum</h1>
-            <p style=" color: #6C6C6C; text-align: center; margin: 4%;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
-            <div class="row" style="margin-bottom: 2%;">
+            <p class="font-mobile" style=" color: #6C6C6C; text-align: center; margin: 4%;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+            <div id="blocos-desk" class="row" style="margin-bottom: 2%;">
                 <div id="box1_left" class="col-md-6 box_left" style="background-color: #0072C6;">
                     <div id="divBox_img" class="row">
                         <div class="col-md-2">
@@ -79,7 +83,7 @@
                     </div> 
                 </div>
             </div>
-            <div class="row" style="margin-bottom: 2%;">
+            <div id="blocos-desk" class="row" style="margin-bottom: 2%;">
                 <div id="box2_left" class="col-md-6 box_left" style="background-color: #327246;">
                     <div id="divBox_img" class="row">
                         <div class="col-md-2">
@@ -103,7 +107,7 @@
                     </div> 
                 </div>
             </div>
-            <div class="row" style="margin-bottom: 2%;">
+            <div id="blocos-desk" class="row" style="margin-bottom: 2%;">
                 <div id="box3_left" class="col-md-6 box_left" style="background-color: #733A81;">
                     <div id="divBox_img" class="row">
                         <div class="col-md-2">
@@ -127,7 +131,7 @@
                     </div> 
                 </div>
             </div>
-            <div class="row" style="margin-bottom: 2%;">
+            <div id="blocos-desk" class="row" style="margin-bottom: 2%;">
                 <div id="box4_left" class="col-md-6 box_left" style="background-color: #0B4AB2;">
                     <div id="divBox_img" class="row">
                         <div class="col-md-2">
@@ -151,7 +155,7 @@
                     </div> 
                 </div>
             </div>
-            <div class="row" style="margin-bottom: 2%;">
+            <div id="blocos-desk" class="row" style="margin-bottom: 2%;">
                 <div id="box5_left" class="col-md-6 box_left" style="background-color: #3094BF;">
                     <div id="divBox_img" class="row">
                         <div class="col-md-2">
@@ -175,10 +179,122 @@
                     </div> 
                 </div>
             </div>
+            <div class="blocos-mobile">
+                <div id="box1_right" class="col-md-6 box_right" style="background-color: #0272C6;">
+                    <div id="divBox_img" class="row">
+                        <div class="col-md-2 divImg-box">
+                            <img id="img_box-mobile" src="../assets/images/Grupo de máscara 1.png">
+                        </div>
+                        <div class="col-md-10 divText-box" style="color: white;">
+                            <p id="text1_box-mobile">Lorem ipsum</p>
+                            <p id="text2_box-mobile">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+                        </div>
+                    </div> 
+                </div>
+                <div id="box1_right" class="col-md-6 box_right" style="background-color: #2C5898;">
+                    <div id="divBox_img" class="row">
+                        <div class="col-md-2 divImg-box">
+                            <img id="img_box-mobile" src="../assets/images/Grupo de máscara 1.png">
+                        </div>
+                        <div class="col-md-10 divText-box" style="color: white;">
+                            <p id="text1_box-mobile">Lorem ipsum</p>
+                            <p id="text2_box-mobile">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+                        </div>
+                    </div> 
+                </div>
+                <div id="box2_left" class="col-md-6 box_left" style="background-color: #327246;">
+                    <div id="divBox_img" class="row">
+                        <div class="col-md-2 divImg-box">
+                            <img id="img_box-mobile" src="../assets/images/Grupo de máscara 1.png">
+                        </div>
+                        <div class="col-md-10 divText-box" style="color: white;">
+                            <p id="text1_box-mobile">Lorem ipsum</p>
+                            <p id="text2_box-mobile">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="box2_right" class="col-md-6 box_right" style="background-color: #CB4A32;">
+                    <div id="divBox_img" class="row">
+                        <div class="col-md-2 divImg-box">
+                            <img id="img_box-mobile" src="../assets/images/Grupo de máscara 1.png">
+                        </div>
+                        <div class="col-md-10 divText-box" style="color: white;">
+                            <p id="text1_box-mobile">Lorem ipsum</p>
+                            <p id="text2_box-mobile">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+                        </div>
+                    </div> 
+                </div>
+                <div id="box3_left" class="col-md-6 box_left" style="background-color: #733A81;">
+                    <div id="divBox_img" class="row">
+                        <div class="col-md-2 divImg-box">
+                            <img id="img_box-mobile" src="../assets/images/Grupo de máscara 1.png">
+                        </div>
+                        <div class="col-md-10 divText-box" style="color: white;">
+                            <p id="text1_box-mobile">Lorem ipsum</p>
+                            <p id="text2_box-mobile">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+                        </div>
+                    </div> 
+                </div>
+                <div id="box3_right" class="col-md-6 box_right" style="background-color: #34AFF0;">
+                    <div id="divBox_img" class="row">
+                        <div class="col-md-2 divImg-box">
+                            <img id="img_box-mobile" src="../assets/images/Grupo de máscara 1.png">
+                        </div>
+                        <div class="col-md-10 divText-box" style="color: white;">
+                            <p id="text1_box-mobile">Lorem ipsum</p>
+                            <p id="text2_box-mobile">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="box4_left" class="col-md-6 box_left" style="background-color: #0B4AB2;">
+                    <div id="divBox_img" class="row">
+                        <div class="col-md-2 divImg-box">
+                            <img id="img_box-mobile" src="../assets/images/Grupo de máscara 1.png">
+                        </div>
+                        <div class="col-md-10 divText-box" style="color: white;">
+                            <p id="text1_box-mobile">Lorem ipsum</p>
+                            <p id="text2_box-mobile">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+                        </div>
+                    </div> 
+                </div>
+                <div id="box4_right" class="col-md-6 box_right" style="background-color: #0173C6;">
+                    <div id="divBox_img" class="row">
+                        <div class="col-md-2 divImg-box">
+                            <img id="img_box-mobile" src="../assets/images/Grupo de máscara 1.png">
+                        </div>
+                        <div class="col-md-10 divText-box" style="color: white;">
+                            <p id="text1_box-mobile">Lorem ipsum</p>
+                            <p id="text2_box-mobile">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="box5_left" class="col-md-6 box_left" style="background-color: #3094BF;">
+                    <div id="divBox_img" class="row">
+                        <div class="col-md-2 divImg-box">
+                            <img id="img_box-mobile" src="../assets/images/Grupo de máscara 1.png">
+                        </div>
+                        <div class="col-md-10 divText-box" style="color: white;">
+                            <p id="text1_box-mobile">Lorem ipsum</p>
+                            <p id="text2_box-mobile">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+                        </div>
+                    </div> 
+                </div>
+                <div id="box5_right" class="col-md-6 box_right" style="background-color: #5658AF;">
+                    <div id="divBox_img" class="row">
+                        <div class="col-md-2 divImg-box">
+                            <img id="img_box-mobile" src="../assets/images/Grupo de máscara 1.png">
+                        </div>
+                        <div class="col-md-10 divText-box" style="color: white;">
+                            <p id="text1_box-mobile">Lorem ipsum</p>
+                            <p id="text2_box-mobile">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+                        </div>
+                    </div> 
+                </div>
+            </div>
         </div>
         <h1 style="color: #2671B7; text-align: center; padding-top: 3%; margin-bottom: 5%;">Lorem ipsum</h1>
-        <div class="container">   
-            <div class="row">
+        <div class="container margin-card-mobile">   
+            <div id="blocosMid2-desk" class="row">
                 <div id="bloco1" class="col-md-3" style="margin-left: 3%;">
                     <div style="padding-left: 20%;">
                         <div class="circuloVerde"><img id="imgSupport" src="../assets/images/support (1).png"></div>
@@ -219,10 +335,44 @@
                     </div>
                 </div>
             </div>
+            <div id="blocosMid2-mobile" style="width: 570px;">
+                <div>
+                    <p class="titleBloco" style="color: #7FBA23; font-size: x-large; padding-top: 0; margin-left: 0;">Lorem ipsum dolor</p>
+                    <div class="row" id="rowCard-mobile">
+                        <div class="col-md-10 divText-box" style="padding-left: 0; padding-right: 1%;">
+                            <p class="textCard-mobile">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+                        </div>
+                        <div class="circuloVerde col-md-2"><img id="imgSupport" src="../assets/images/support (1).png"></div>
+                    </div>
+                    <button class="btn btn-outline-*" style="color: #7FBA23; border-color: #7FBA23;">Lorem ipsum</button>
+                    <hr class="solid">
+                </div>
+                <div>
+                    <p class="titleBloco" style="color: #2AA5EF; font-size: x-large; padding-top: 0; margin-left: 0;">Lorem ipsum dolor</p>
+                    <div class="row" id="rowCard-mobile">
+                        <div class="col-md-10 divText-box" style="padding-left: 0; padding-right: 1%;">
+                            <p class="textCard-mobile">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+                        </div>
+                        <div class="circuloAzul col-md-2"><img id="imgShield" src="../assets/images/shield.png"></div>
+                    </div>
+                    <button class="btn btn-outline-*" style="color: #2AA5EF; border-color: #2AA5EF;">Lorem ipsum</button> 
+                    <hr class="solid">
+                </div>
+                <div>
+                    <p class="titleBloco" style="color: #F9B93E; font-size: x-large; padding-top: 0; margin-left: 0;">Lorem ipsum dolor</p>
+                    <div class="row" id="rowCard-mobile">
+                        <div class="col-md-10 divText-box" style="padding-left: 0; padding-right: 1%;">
+                            <p class="textCard-mobile">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+                        </div>
+                        <div class="circuloLaranja col-md-2"><img id="imgNotebook" src="../assets/images/notebook-and-mouse-cursor.png"></div>
+                    </div>
+                    <button class="btn btn-outline-*" style="color: #F9B93E; border-color: #F9B93E;">Lorem ipsum</button>
+                </div>
+            </div>
         </div>
-        <h1 style="color: #2671B7; text-align: center; padding-top: 3%; margin-bottom: 5%;">Lorem ipsum dolor</h1>
+        <h1 style="color: #2671B7; text-align: center; margin-top: 10%; padding-top: 3%; margin-bottom: 10%;">Lorem ipsum dolor</h1>
         <div class="container" style="margin-bottom: 5%;">
-            <div class="row">
+            <div class="row" id="tabela-desk">
                 <div class="col-md-3" style="border: solid #DEDEDE; padding: 2%; border-width: 3px 0px 3px 3px;">
                     <p style="color: #EF4A37; text-align: center;">Lorem ipsum dolor</p>
                     <p style="text-align: center;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
@@ -240,6 +390,24 @@
                     <p style="text-align: center;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
                 </div>
             </div>
+            <div id="tabela-mobile">
+                <div style="border: solid #DEDEDE; padding: 10% 11%; border-width: 3px 3px 0px 3px;">
+                    <p style="color: #EF4A37; text-align: center;">Lorem ipsum dolor</p>
+                    <p style="text-align: center;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                </div>
+                <div style="border: solid #DEDEDE; padding: 10% 11%; border-width: 3px 3px 0px 3px;">
+                    <p style="color: #EF4A37; text-align: center;">Lorem ipsum dolor</p>
+                    <p style="text-align: center;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                </div>
+                <div style="border: solid #DEDEDE; padding: 10% 11%; border-width: 3px 3px 0px 3px;">
+                    <p style="color: #EF4A37; text-align: center;">Lorem ipsum dolor</p>
+                    <p style="text-align: center;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                </div>
+                <div style="border: solid #DEDEDE; padding: 10% 11%; border-width: 3px 3px 3px 3px;">
+                    <p style="color: #EF4A37; text-align: center;">Lorem ipsum dolor</p>
+                    <p style="text-align: center;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                </div>
+            </div>
         </div>
         <div>
             <div class="bg-imageDown"></div>
@@ -248,7 +416,7 @@
                 <p id="text2_down">sed do eiusmod tempor incididunt ut labore et dolore</p>
             </div>
         </div>
-        <div>
+        <div style="padding-bottom: 15%;">
             <div class="divText_form">
                 <p class="text_form">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
