@@ -325,7 +325,71 @@ hr.solid {
     display: none;
 }
 
+#baixo_topo2{
+    display: none;
+}
+
 /* RESPONSIVIDADE */
+@media only screen and (max-width: 480px) {
+    #divTextUp {
+        margin: 5% 0% !important;
+        text-align: center;
+        font-size: large;
+        color: #6C6C6C;
+        width: 100%;
+        padding: 0 3%;
+    }
+    
+    #botao_topo {
+        margin-bottom: 1%;
+        padding: 1% 4%;
+        font-family: 'Segoe UIl', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #00A4EF;
+        font-size: 200%;
+        margin-left: 25% !important;
+        margin-top: 5%;
+    }
+
+    .bg-image {
+        position: absolute;
+        left: 0;
+        right: 0;
+        z-index: 1;
+        display: block;
+        background-image: url(../assets/images/ballpen-blur-close-up-461077.png);
+        width: 100%;
+        height: 141% !important;
+        -webkit-filter: blur(5px);
+        -moz-filter: blur(5px);
+        -o-filter: blur(5px);
+        -ms-filter: blur(5px);
+        filter: blur(1px);
+        background-position-x: 35% !important;
+        background-repeat: no-repeat;
+        background-size: 400% !important;
+    }
+
+    /* .margin-card-mobile {
+        margin-left: 3% !important;
+    } */
+
+    #text2_down {
+        color: white;
+        font-size: xx-large !important;
+        font-family: 'Segoe UIl', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        padding: 0% 5% 13.3% 5% !important;
+    }
+
+    #text1_down {
+        color: white;
+        font-size: xx-large;
+        font-family: 'Segoe UIl', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        padding: 12% 5% 0% 5%;
+    }
+}
+
 @media only screen and (max-width: 720px) {
     .bg-image {
         position: absolute;
@@ -397,10 +461,6 @@ hr.solid {
 
     #divSeta_topo {
         padding-left: 0;
-        display: none;
-    }
-
-    #baixo_topo1{
         display: none;
     }
 
@@ -562,9 +622,9 @@ hr.solid {
         margin: 7% 0px;
     }
 
-    .margin-card-mobile{
-        margin-left: 8% !important;
-    }
+    /* .margin-card-mobile{
+        margin-left: 3%;
+    } */
     
     #tabela-desk{
         display: none;
