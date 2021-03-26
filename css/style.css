@@ -43,24 +43,6 @@ body, html {
 /* FIM CSS NAVBAR */
 
 /* CSS TOPO DA PAGINA */
-/* .img-back{
-    height: 100%;
-    display: block;
-    filter: blur(5px);
-    -webkit-filter: blur(5px);
-    -moz-filter: blur(5px);
-    -o-filter: blur(5px);
-    -ms-filter: blur(5px);
-    background-image: url(../assets/images/ballpen-blur-close-up-461077.png);
-    background-size: 107%;
-    background-position-x: right;
-}
-
-.bg-text{
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0, 0.4);
-} */
-
 .bg-image {
     position: absolute;
     left: 0;
@@ -141,6 +123,13 @@ body, html {
 }
 /* FIM CSS TOPO DA PAGINA */
 
+#divTextUp{
+    margin: 5%;
+    text-align: center; 
+    font-size: large;
+    color: #6C6C6C;
+}
+
 /* BLOCOS MID1 */
 #divBox_img{
     padding: 2%;
@@ -171,6 +160,8 @@ body, html {
     max-width: 48%!important;
 }
 /* FIM BLOCOS MID1 */
+
+/* BLOCOS MID2 */
 .circuloVerde{
     background: #7FBA23;
     border-radius: 50%;
@@ -212,8 +203,18 @@ body, html {
     margin-right: auto;
     padding-top: 30%;
 }
-/* BLOCOS MID2 */
 
+.titleBloco{
+    padding-top: 8%;
+    font-size: larger;
+    font-family: 'SegoeUIb';
+    margin-left: -3%;
+}
+
+hr.solid {
+    border-top: 3px solid #bbb;
+    width: 10%;
+  }
 /* FIM BLOCOS MID2 */
 
 /* RESPONSIVIDADE */
